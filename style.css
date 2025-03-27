@@ -26,6 +26,7 @@ body{
     width: 30vw;
     -webkit-backdrop-filter: blur(5.4px);
     backdrop-filter: blur(4.4px);
+    box-shadow: 1px 10px 10px 1px rgba(1, 1, 0.5, 0.2);
 }
 
 input{
@@ -44,19 +45,19 @@ input{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 90%;
 }
 
 .btns button{
-    padding: 1.4vw ;
+    padding: 1.2vw ;
     margin: 1vw;
     border: none;
     border-radius: 100vw;
     cursor: pointer;
-    font-size: 2vw;
+    font-size: 1.5vw;
     background: #ffffffcb;
     color: #0a0909;
-    box-shadow: 1px 10px 10px 1px rgba(1, 1, 0.5, 0.3);
+    box-shadow: 1px 10px 10px 1px rgba(1, 1, 1, 0.3);
 }
 
 .btns button:active{
